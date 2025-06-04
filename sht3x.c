@@ -17,7 +17,7 @@ sht3x_handle_t sht3x_create(i2c_master_bus_handle_t bus, uint8_t dev_addr) {
   i2c_device_config_t dev_cfg = {
       .dev_addr_length = I2C_ADDR_BIT_LEN_7,
       .device_address = dev_addr,
-      .scl_speed_hz = 400000,
+      .scl_speed_hz = 100000,
   };
 
   sht3x_sensor_t *sens = (sht3x_sensor_t *)calloc(1, sizeof(sht3x_sensor_t));
