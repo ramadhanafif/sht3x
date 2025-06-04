@@ -1,7 +1,7 @@
 # SHT3x Sensor Library for ESP-IDF
 
 This is a ESP-IDF component for interfacing with SHT3x series temperature and humidity sensors using an ESP microcontroller.
-This library aim to fix the use of I2C library to newer one where I2C driver for slave and master are differentiated. See more about ESP-IDF I2C (here)[https://docs.espressif.com/projects/esp-idf/en/v5.4.1/esp32c3/api-reference/peripherals/i2c.html#introduction]
+This library aim to fix the use of I2C library to newer one where I2C driver for slave and master are differentiated. See more about ESP-IDF I2C [here]https://docs.espressif.com/projects/esp-idf/en/v5.4.1/esp32c3/api-reference/peripherals/i2c.html#introduction)
 
 This project was forked from [espressif/esp-iot-solution for sht3x](https://github.com/espressif/esp-iot-solution/tree/350117fb02941f9d0f3a2ccde53f8da108d2ee8a/components/sensors/humiture/sht3x).
 
